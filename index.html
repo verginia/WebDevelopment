@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <!-- Comments-->
+<head>
+    <!--The head elements-->
+    <!--is a container for the following elements: <title>, <style>, <meta>, <link>, <script>, and <base> -->
+    <!--
+        The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+        The <title> element is required in HTML documents!
+            The content of a page title is very important for search engine optimization (SEO)! 
+            The page title is used by search engine algorithms to decide the order when listing pages in search results.
+    -->
+   <title>Introducere în HTML </title>
+   <!--
+   The <style> element is used to define style information for a single HTML page:
+   -->
+   <style>
+    body {background-color: powderblue;}
+    h1 {color: red;}
+    p {color: blue;}
+  </style>
+  <!--
+  The <link> element defines the relationship between the current document and an external resource.
+  The <link> tag is most often used to link to external style sheets:
+  -->
+  <link rel="stylesheet" href="mystyle.css">
+  <!--
+  Define the character set used: <meta charset="UTF-8">
+  Define keywords for search engines: <meta name="keywords" content="HTML, CSS, JavaScript">
+  Define a description of your web page: <meta name="description" content="Free Web tutorials">
+  Define the author of a page: <meta name="author" content="John Doe">
+  Setting the viewport to make your website look good on all devices: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  -->
+<meta charset="UTF-8">
+<meta name="description" content="Web tutorials">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Verginia Stolear">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
+The <script> element is used to define client-side JavaScripts.
+-->
+<script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    }
+</script>
+<!--
+The <base> element specifies the base URL and/or target for all relative URLs in a page.
+The <base> tag must have either an href or a target attribute present, or both.
+There can only be one single <base> element in a document!
+-->
+<base href="https://www.w3schools.com/" target="_blank">
+</head>
+<body>
+   <h1>Topici</h1>
+   <h2>HTML</h2>
+   <h2>CSS</h2>
+   <h6>Titlu</h6>
+   <br>
+   <h2>JavaScript Versiunea 6</h2>
+   <p>Acesta este paragraful meu.<br>
+    Si numele meu este Verginia
+   </p>
+   <input type="text">
+
+   <h1>My Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<br>
+<p>
+    <a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, 
+    even if it has no target="_blank" attribute. This is because the target attribute of the base 
+    element is set to "_blank".
+</p>
+</body>
+</html>
