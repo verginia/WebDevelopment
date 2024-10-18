@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Introducere în HTML </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Verginia Stolear">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="" placeholder="Name">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="E-mail">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="4 characters minimum">
+        
+        <label for="description">Description:</label>
+        <textarea name="description" row="5"></textarea>
+
+        <label for="car">Car:</label>
+        <select id="car" name="car">
+            <option value="audi">Audi</option>
+            <option value="tesla">Tesla</option>
+            <option value="toyota">Toyota</option>
+            <option value="bmw">BMW</option>
+            <option value="volkswagen">Volkswagen</option>
+            <option value="hyundai">Hyundai</option>
+        </select>
+        
+        <input type="submit">
+        <input type="reset">
+    </form>  
+    
+    <h1>Sample Form</h1>
+    <form>
+        <label for="red">Red:</label>
+        <input type="checkbox" id="red" name="color" value="red">
+        <label for="blue">Blue:</label>
+        <input type="checkbox" id="blue" name="color" value="blue">
+        <label for="purple">Purple:</label>
+        <input type="checkbox" id="purple" name="color" value="purple">
+
+        <br>
+        <label for="red-1">Red:</label>
+        <input type="radio" id="red-1" name="favorite-color" value="red">
+        <label for="blue-1">Blue:</label>
+        <input type="radio" id="blue-1" name="favorite-color" value="blue">
+        <label for="purple-1">Purple:</label>
+        <input type="radio" id="purple-1" name="favorite-color" value="purple">
+
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+
+        <br>
+        <label for="image">Add an image:</label>
+        <input type="file" id="image" name="image">
+
+        <br>
+        <label for="power">Select the power of your character:</label>
+        <input type="range" id="power" name="power" min="0" max="100">
+
+        <br>
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search">
+        
+    </form>   
+
+</body>
