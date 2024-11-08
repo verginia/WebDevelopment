@@ -1,0 +1,61 @@
+
+.box-one h1:first-child{
+    background-color: yellowgreen;
+}
+.box-one h1:last-child{
+    background-color: rgb(71, 12, 200);
+}
+.box-one h1:nth-child(2n){
+    background-color: greenyellow;
+}
+
+/* Selectors for all children 
+
+.box-one * {
+    background-color: red;
+}
+/* Only direct descendants 
+.box-one > p {
+    background-color: rgb(189, 233, 45);
+}
+.box-one > .box-one-child > p {
+    background-color: yellow;
+}
+/* relatives selectors 
+
+h1 + p {
+    background-color: aqua;
+}
+
+h1 ~ h2 {
+    background-color: yellow;
+}
+*/
+
+
+/* body {
+    background-color: red;
+} 
+p, h3{
+    background-color: blue;
+}
+#first-paragraph{
+    background-color: yellow;
+}
+p.pink-paragraph.big-font{
+    background-color: pink;
+    font-size: 30px;
+}
+h2.pink-paragraph{
+    background-color: blueviolet;
+    
+}
+
+/*
+*{
+    background-color: red;
+}
+body{
+    background-color: blue;
+}
+*/
