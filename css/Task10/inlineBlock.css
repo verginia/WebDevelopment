@@ -1,0 +1,14 @@
+.box-one {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin-right: 50px;
+    background-color: aquamarine;
+}
+
+.box-two {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    background-color: yellow;
+}
