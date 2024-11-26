@@ -1,0 +1,77 @@
+html{
+    font-size: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main{
+    background-color: blue;
+}
+
+div{ 
+    float: left;
+    width: 10rem;
+    height: 10rem;
+    margin-left:2.5rem;
+    margin-bottom: 2.5rem;
+    background-color: brown;
+}
+
+.mijloc::before{
+    content: "";
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+
+}
+
+.mijloc::after{
+    content: "";
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* div{ 
+    float: none; 
+    width: 10rem;
+    height: 10rem;
+    margin-left:2.5rem;
+    margin-bottom: 2.5rem;
+    background-color: brown;
+}
+
+.last-element{
+    background-color: aquamarine;
+} */
+
+
+/* div{ 
+    float: right;
+    width: 10rem;
+    height: 10rem;
+    margin-left:2.5rem;
+    margin-bottom: 2.5rem;
+    background-color: brown;
+}
+
+.last-element{
+    background-color: aquamarine;
+} */
+
+/* div{ 
+    float: left;
+    width: 10rem;
+    height: 10rem;
+    margin-left:2.5rem;
+    margin-bottom: 2.5rem;
+    background-color: brown;
+}
+*/
