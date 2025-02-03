@@ -25,3 +25,6 @@ https://www.bestauto.ro/auto/
 https://www.alles.auto/
 
 https://www.mobile.de/ro
+
+Task16: Proiect HTML & CSS
+![HTML & CSS](Portfolio_Site.png)
