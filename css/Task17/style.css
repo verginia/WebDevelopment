@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+/* Navigation */
+header{display: flex; justify-content: space-between; align-items: center; height: 7rem; padding: 0.75rem 5rem; background-color: #fff;}
+ .logo{height: 8rem;}
+
+.navigation{display: inline-block; text-align: center;}
+   .navigation > a{font-size: 1rem; margin-right: 1rem; text-decoration: none; color: #000;}
+   .navigation > a:last-child{margin-right: 0;}
+   .navigation > a:hover{text-decoration: underline;}
+
+@media (max-width:580px){
+    header{padding: 0.75rem 0.5rem;}
+    .navigation > a {margin-right: 0}
+    .logo{width: 5rem;}
+}
+/* Navigation */
+
+/* Hero */
+.video-details{width: 100%;}
+
+/* Hero */
+
+/* About us */
+.about-us-container{display: grid; grid-template-columns: auto auto; padding: 5rem; text-align: center;}
+ .about-content > h1{text-align: left; font-size: 4rem; padding-bottom: 2rem; color: #caa880;}
+ .about-content > p{text-align: justify;line-height: 2rem;padding-top: 1rem; color: #3b4964;}
+ .about-item > img{width: 100%; height: auto;border-radius: 5rem; padding: 3.5rem;}
+
+@media (max-width:768px){
+    .about-us-container{grid-template-columns: inherit; padding: 0;}
+    .about-content > p{padding: 0 3rem 0 3rem; line-height: 1.5rem;}
+    .about-item > img{width: 70%;}
+}
+
+/* About us */
+
+/* Services */
+.services-container{display: grid; grid-template-columns: auto auto auto; padding: 5rem; text-align: center;}
+#section-2 > h1{text-align: center; font-size: 4rem; font-weight: 700; margin-top: 4rem; margin-bottom: 4rem; color: #caa880;}
+ .grid-box-third > img{width: 10rem;}
+ .grid-box-third > h2{color: #caa880; font-size: 2rem; font-weight: 700;}
+ .grid-box-third > p{color: #3b4964;line-height: 1.5rem; margin-top: 1.5rem; margin-bottom: 3rem;}
+
+
+ #section-3{
+    display: flex;
+    color: #fff; 
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    background-image: url(../../media/images/Task17/medic.jpeg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description{font-size: 2rem; margin-left: 3rem; margin-right: 3rem;}
+
+@media (max-width:768px){
+    .services-container{grid-template-columns: inherit; padding: 0 5rem 0 5rem;}
+    #section-3{margin-top: 5rem;}
+}
+
+/* Services */
+
+/* Footer */
+footer{margin-left: 0; margin-top: 5rem; margin-bottom: 2.5rem;}
+footer h1{font-size: 3rem; font-weight: 600; margin-bottom: 1.5rem; padding-left: 5rem;}
+footer address{padding-left: 5rem; margin-bottom: 1.2rem;}
+footer a{padding-left: 5rem; margin-bottom: 2rem;}
+
+.copyright{text-align: center;}
+
+
+/* Footer */
+

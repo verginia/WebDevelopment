@@ -1,7 +1,7 @@
 # WebDevelopment
 
 Task7: coding challenge:
-![First HTML Challenge](html_Challenge_1.png)
+![First HTML Challenge](../WebDevelopment/media/images/README/html_Challenge_1.png)
 
 Task8:
 Tema site-ului sa fie o prezentare de mașini și să fie realizat strict cu HTML - practic scheletul site-ului.
@@ -27,4 +27,12 @@ https://www.alles.auto/
 https://www.mobile.de/ro
 
 Task16: Proiect HTML & CSS
-![HTML & CSS](Portfolio_Site.png)
+![HTML & CSS](../WebDevelopment/media/images/README/Portfolio_Site.png)
+
+Task17: [1] Challenge
+În această lecție, vă invit să creați o pagină web care să arate astfel 👇
+
+Link către site: https://teachbit.github.io/Proiect-HTML-CSS/
+
+De asemenea, aveți link-ul cu site-ul creat + codul acestuia în cazul în care este necesar.
+Recomandat ar fi să vizualizați PDF-ul sau link-ul, și să vă folosiți de uneltele învățate pentru crearea acestei pagini web.
