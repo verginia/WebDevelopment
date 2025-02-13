@@ -36,3 +36,8 @@ Link către site: https://teachbit.github.io/Proiect-HTML-CSS/
 
 De asemenea, aveți link-ul cu site-ul creat + codul acestuia în cazul în care este necesar.
 Recomandat ar fi să vizualizați PDF-ul sau link-ul, și să vă folosiți de uneltele învățate pentru crearea acestei pagini web.
+
+Task18: [2] Challenge
+În această lecție, vă invit să creați o pagină web care să arate astfel 👇
+
+Link către site: https://webdeveloperii.github.io/project-recipe/
