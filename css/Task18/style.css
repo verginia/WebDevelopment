@@ -1,0 +1,20 @@
+*{margin: 0;}
+html{font-size: 10px;}
+body{background-color: hsl(30, 54%, 90%); margin: auto; width: 40%;}
+.container{background-color: #fff; padding: 2rem; border-radius: 1.5rem;}
+.omelette-img{width: 100%; border-radius: 1.5rem;}
+.title-recipe{font-weight: 500; font-size: 3rem;}
+.description{font-size: 1.4rem; margin-bottom: 1.5rem;}
+.recipe-about-preparation{background-color: hsl(330, 100%, 98%);}
+.recipe-text{color: hsl(332, 51%, 32%); font-size: 1.8rem; font-weight: 600; margin-bottom: 1rem;}
+.recipe-about-ingredients, .recipe-about-instructions, .recipe-about-nutrition, .recipe-about-preparation{
+    padding: 1.5rem; font-size: 1.4rem;}
+table{text-align: left; width: 100%; margin-top: 1.8rem;}
+td, th{border-bottom: 1px solid; padding-top: 1.5rem;}
+
+@media (max-width:844px){
+    body{background-color: #fff; width: 100%;}
+    .container{padding: 0; border-radius: 0;}
+    .omelette-img{border-radius: 0;}
+    .description{margin: 0 1.5rem;}
+}
