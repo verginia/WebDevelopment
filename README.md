@@ -41,3 +41,14 @@ Task18: [2] Challenge
 În această lecție, vă invit să creați o pagină web care să arate astfel 👇
 
 Link către site: https://webdeveloperii.github.io/project-recipe/
+
+Comments for Task 17:
+-> task-ul 17 arata foarte bine, la fel in zona de styling (fisierul css) te rog sa-l formatezi.
+-> Pe ecranul mobil iti recomand sa aliniezi text-ul 'About Us' la centru si logo-ul sa il formatezi mai mic (width + height).
+-> sectiunile ai putea sa le numesti exact ce reprezinta -> #about-us #contact etc.
+-> iti recomand sa nu adaugi stilizarile pe id-uri -> ci doar pe clase.
+
+Task 18:
+-> iti recomand sa folosesti 'section' pentru a imparti zonele paginii (preparation, instructiuni etc.) 
+-> iar la zona de css iti recomand sa formatezi codul pentru ca este greu de inteles 
+-> iti recomand sa folosesti extensia Prettier - https://www.skool.com/webdeveloperiiro-3487/visual-studio-code-extensii-si-utilizare
