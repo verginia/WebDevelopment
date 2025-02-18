@@ -1,0 +1,23 @@
+.navbar-logo{
+    width: 4.6875rem;
+    height: 4.6875rem;
+    border-radius: 4rem;
+    border: 2px solid white;
+}
+
+.first{
+    margin-top: -1.8rem;
+}
+
+.carousel-image{
+    height: 80vh;
+}
+.carousel-image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
