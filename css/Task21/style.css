@@ -6,7 +6,7 @@ body {
     position: relative;
     background: url(../../media/images/Task21/design-interior.jpg) no-repeat center center/cover;
     height: 80vh;
-    color: white;
+    color: #fff;
     text-align: center;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ body {
 
 .btn {
     background-color: #1b3863;
-    color: white;
+    color: #fff;
     padding: 1rem 3rem;
     border-radius: 3rem;
     text-decoration: none;
@@ -39,7 +39,7 @@ body {
 }
 
 .quality-section {
-    padding: 50px 15px;
+    padding: 3.125rem 0.9375rem;
 }
 
 .quality-section h2 {
@@ -51,9 +51,9 @@ body {
 
 .img-relax{
     object-fit: cover;
-    width: 600px;
-    height: 600px;
-    border-radius: 190px;
+    width: 37.5rem;
+    height: 37.5rem;
+    border-radius: 11.875rem;
     padding: 0 5rem;
 }
 
@@ -70,7 +70,7 @@ body {
     position: relative;
     background: url(../../media/images/Task21/fundalabout.jpg) no-repeat center center/cover;
     height: 50vh;
-    color: white;
+    color: #fff;
     text-align: center;
     display: flex;
     align-items: center;
