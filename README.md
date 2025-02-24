@@ -42,6 +42,7 @@ Task18: [2] Challenge
 
 Link către site: https://webdeveloperii.github.io/project-recipe/
 
+Task19: 
 Comments for Task 17:
 -> task-ul 17 arata foarte bine, la fel in zona de styling (fisierul css) te rog sa-l formatezi.
 -> Pe ecranul mobil iti recomand sa aliniezi text-ul 'About Us' la centru si logo-ul sa il formatezi mai mic (width + height).
@@ -52,3 +53,12 @@ Task 18:
 -> iti recomand sa folosesti 'section' pentru a imparti zonele paginii (preparation, instructiuni etc.) 
 -> iar la zona de css iti recomand sa formatezi codul pentru ca este greu de inteles 
 -> iti recomand sa folosesti extensia Prettier - https://www.skool.com/webdeveloperiiro-3487/visual-studio-code-extensii-si-utilizare
+
+Task21: CSS Bootstrap Project
+În această lecție, vă invit să creați o pagină web care să arate astfel 👇
+
+Link cǎtre site: Proiect - Bootstrap https://teachbit.github.io/Proiect-Bootstrap/
+
+De asemenea, aveți link-ul cu site-ul creat + codul acestuia în cazul în care este necesar.
+
+Recomandat ar fi să vizualizați PDF-ul sau link-ul, și să vă folosiți de uneltele învățate pentru crearea acestei pagini web.
