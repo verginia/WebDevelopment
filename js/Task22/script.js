@@ -1,14 +1,15 @@
 // Task 1: Creează un fișier HTML și un fișier JS extern. 
 // Leagă fișierul JS de HTML și folosește console.log("Salut, lume!") pentru a verifica dacă legătura funcționează.
-console.log("Task1:")
+console.log("Task 1: console.log")
 console.log("Hello World!")
 console.log("Introduction in JavaScript!")
 
-// Task 2: Declară o constantă numită nume și atribuie-i numele tău. 
-// Declară o variabilă let numită vârstă si atribuiei valoarea 30.
-// Schimbă valoarea variabilei vârstă cu vârsta ta și afișează valoarea în consolă.
+/*Task 2: Declară o constantă numită nume și atribuie-i numele tău. 
+ Declară o variabilă let numită vârstă si atribuiei valoarea 30.
+ Schimbă valoarea variabilei vârstă cu vârsta ta și afișează valoarea în consolă.
+*/
 
-console.log("Task2:");
+console.log("Task 2: Variables let and const");
 const name = "Stolear";
 let age = 30;
 
@@ -17,12 +18,13 @@ console.log(age);
 age = 36;
 console.log(age);
 
-// Task 3:
-// 1. Creează 2 variabile numite a și b cu valoarea 10 și 5. 
-// Calculează suma(+), diferența(-), produsul(*) și câtul(/). Afișează-le în consolă.
-// 2. Creează 2 variabile numite val1 și val2 cu valoarea 13 și 5. Calculează restul împărțirii dintre cele două numere.
+/* Task 3:
+1. Creează 2 variabile numite a și b cu valoarea 10 și 5. 
+Calculează suma(+), diferența(-), produsul(*) și câtul(/). Afișează-le în consolă.
+2. Creează 2 variabile numite val1 și val2 cu valoarea 13 și 5. Calculează restul împărțirii dintre cele două numere.
+*/
 
-console.log("Task3:");
+console.log("Task 3: Operators");
 // Operatii aritmetice:
 let a = 10;
 let b = 5;
@@ -38,7 +40,54 @@ let val2 = 5;
 
 console.log("Modulus (Restul impartirii): ", val1 % val2);
 
-//Task 4:
+/*Task 4:
+1. Creează 5 variabile, fiecare cu un tip de date diferit: string, number, boolean, undefined, null. Afișează-le în consolă.
+2. Creează un array numit fructe care conține 5 elemente de tip string. Afișează primul și ultimul element din array în consolă.
+3. Creează un obiect numit persoana cu proprietăți nume, prenume, varsta, job, oras. 
+Afișează numele persoanei folosind punctul (.) și notația cu paranteze pătrate ([]).
+*/
 
+console.log("Task 4: Data Types");
+let name1 = "Verginia";
+console.log("Data type: 1.String: ", name1);
+console.log("typeof name1:",typeof name1);
 
-console.log("Task3:");
+let number = 30;
+console.log("Data type: 2.Number: ", number);
+console.log("typeof number:",typeof number);
+
+let testa = true;
+let testf = false;
+console.log("Data type: 3.Boolean: ", testa);
+console.log("typeof testa:",typeof testa);
+console.log("Data type: 3.Boolean: ", testf);
+console.log("typeof testf:",typeof testf);
+
+let check;
+console.log("Data type: 4.Undefined: ", check);
+console.log("typeof check:",typeof check);
+
+let empty = null;
+console.log("Data type: 5.Null: ", empty);
+console.log("typeof empty:",typeof empty);
+
+// 2. Creează un array numit fructe care conține 5 elemente de tip string. Afișează primul și ultimul element din array în consolă.
+let fruits = ["apple", "peach", "mango", "strawberry", "grapes"];
+console.log("Array first element: ", fruits[0]);
+console.log("typeof fruits:",typeof fruits);
+console.log("Array last element: ", fruits[4]);
+
+// 3. Creează un obiect numit persoana cu proprietăți nume, prenume, varsta, job, oras. 
+// Afișează numele persoanei folosind punctul (.) și notația cu paranteze pătrate ([]).
+
+let person = {
+    "lastName": "Stolear",
+    "firstName": "Verginia",
+    "age": 36,
+    "job": "QA Engineer",
+    "city": "Chisinau"
+};
+
+console.log("Object, dot syntax: ", person.lastName);
+console.log("Object, square bracket syntax: ", person["lastName"]);
+console.log("typeof person:",typeof person);
