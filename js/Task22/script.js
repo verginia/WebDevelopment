@@ -122,3 +122,53 @@ console.log('"abcde" != "abcdf"', ad != ac);
 console.log('"abcde" === "abcdf"', ad === ac);
 console.log('"abcde" !== "abcdf"', ad !== ac);
 
+/* Task 6:
+1. Verifică dacă un utilizator este eligibil pentru un credit:
+
+a. Variabila varsta trebuie să fie mai mare de 18.
+b. Variabila areVenit trebuie să fie true.
+c. Folosește operatorul logic && pentru a decide dacă utilizatorul este eligibil.
+
+2. Scrie un program care afișează ziua săptămânii pe baza unui număr 
+(1 pentru Luni, 2 pentru Marți,  3 pentru Miercuri, 4 pentru joi, etc.) folosind un switch.
+*/
+
+console.log("Task 6: Conditional:");
+console.log("First: If Else");
+let age1 = 19;
+let hasIncome = true;
+
+if (age1 > 18 && hasIncome){
+    console.log("The user is eligible");
+}else{
+    console.log("The user is not eligible");
+}
+
+console.log("Second: Switch");
+let numberDay = 1;
+
+switch(numberDay){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid number! Please enter a number between 1 and 7.");
+}
