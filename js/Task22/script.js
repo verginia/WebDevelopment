@@ -91,3 +91,34 @@ let person = {
 console.log("Object, dot syntax: ", person.lastName);
 console.log("Object, square bracket syntax: ", person["lastName"]);
 console.log("typeof person:",typeof person);
+
+/* Task 5:
+1. Compară numerele 5 și "5" pentru a vedea dacă sunt egale folosind egalitate și egalitate strictă (== și ===).
+ Afișează rezultatele.
+2. Creează 2 variabile numite num1 și num2 cu valoarea 10 și 5. Compară cele două numere 
+(mai mare, mai mic, mai mare sau egal) și afișează rezultatele.
+3. Compară două string-uri pentru egalitate și inegalitate.
+ */
+
+console.log("Task 5: Comparison Operators:");
+
+let x = 5;
+let y = "5";
+console.log("5 == '5'", x == y);
+console.log('5 === "5"', x === y);
+
+let num1 = 10;
+let num2 = 5;
+console.log("10 > 5", num1 > num2);
+console.log("10 < 5", num1 < num2);
+console.log("10 >= 5", num1 >= num2);
+console.log("10 <= 5", num1 <= num2);
+
+let ad = "abcde";
+let ac = "abcdf";
+
+console.log('"abcde"== "abcdf"', ad == ac);
+console.log('"abcde" != "abcdf"', ad != ac);
+console.log('"abcde" === "abcdf"', ad === ac);
+console.log('"abcde" !== "abcdf"', ad !== ac);
+
