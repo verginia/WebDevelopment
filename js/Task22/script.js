@@ -172,3 +172,22 @@ switch(numberDay){
     default:
         console.log("Invalid number! Please enter a number between 1 and 7.");
 }
+
+/* Task 7:
+1. Scrie un program care afișează toate numerele de la 1 la 10 folosind o buclă for.
+2. Scrie un program care afișează toate numerele de la 1 la 10 folosind o buclă while.
+ */
+
+console.log("Task 7: Loop:");
+console.log("First: For");
+
+for(let i = 1; i <= 10; i++){
+    console.log(i);
+}
+
+console.log("First: While");
+let i = 1;
+while(i <= 10){
+    console.log(i);
+    i++;
+}
