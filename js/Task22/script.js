@@ -191,3 +191,53 @@ while(i <= 10){
     console.log(i);
     i++;
 }
+
+/* Task 8: 
+1. Creează o funcție numită salut care primește un parametru nume și afișează 
+un mesaj de salut în consolă. (Exemplu: Salut, Oana!)
+2. Creează o funcție care primește două numere și returnează suma lor.
+3. Scrie o funcție de tip arrow numită inmultire care primește două numere și returnează produsul lor.
+Apel exemplu: inmultire(3, 4); // 12;.
+ */
+
+console.log("Task 8: Functions:");
+console.log("First: ");
+
+function hello(name){
+    console.log("Hello", name);
+};
+
+hello("Verginia");
+
+// arrow function:
+console.log("First, arrow function: ");
+const hello1 = (name) => {
+    console.log(`Hello, ${name}!`);
+};
+hello1("Verginia");
+
+console.log("Second: ");
+function sum(a, b){
+    return a + b;
+};
+
+console.log(sum(15, 98));
+
+console.log("Second arrow function: ");
+const sum1 = (a, b) => {
+    return a + b;
+};
+console.log(sum1(119, 99));
+
+console.log("Third: ");
+function multiplication(a, b){
+    return a * b;
+};
+console.log(multiplication(5, 19));
+
+console.log("Third arrow function: ");
+const multiplication1 = (a, b) => {
+    return a * b;
+};
+
+console.log(multiplication1(17, 25));
