@@ -26,6 +26,9 @@ https://www.alles.auto/
 
 https://www.mobile.de/ro
 
+CSS Ghid:
+https://docs.google.com/document/d/1lMEjqVEVv0yBQNqJp2BPZs-L9QnBtqhfatf1uUdvJ-s/edit?tab=t.94b587w16une#heading=h.1whnadcm7lf3
+
 Task16: Proiect HTML & CSS
 ![HTML & CSS](../WebDevelopment/media/images/README/Portfolio_Site.png)
 
@@ -62,3 +65,7 @@ Link cǎtre site: Proiect - Bootstrap https://teachbit.github.io/Proiect-Bootstr
 De asemenea, aveți link-ul cu site-ul creat + codul acestuia în cazul în care este necesar.
 
 Recomandat ar fi să vizualizați PDF-ul sau link-ul, și să vă folosiți de uneltele învățate pentru crearea acestei pagini web.
+
+Task22: JavaScript Fudamentals:
+-> JavaScript Ghid: 
+https://docs.google.com/document/d/1XuPwaSQK4D8YlmBjfCae9a-3isAPWMjPeaTk-p7tJLw/edit?tab=t.0#heading=h.lrwby1u1jaz1
