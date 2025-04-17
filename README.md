@@ -26,6 +26,9 @@ https://www.alles.auto/
 
 https://www.mobile.de/ro
 
+CSS Ghid:
+https://docs.google.com/document/d/1lMEjqVEVv0yBQNqJp2BPZs-L9QnBtqhfatf1uUdvJ-s/edit?tab=t.94b587w16une#heading=h.1whnadcm7lf3
+
 Task16: Proiect HTML & CSS
 ![HTML & CSS](../WebDevelopment/media/images/README/Portfolio_Site.png)
 
