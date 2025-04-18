@@ -69,3 +69,14 @@ Recomandat ar fi să vizualizați PDF-ul sau link-ul, și să vă folosiți de u
 Task22: JavaScript Fudamentals:
 -> JavaScript Ghid: 
 https://docs.google.com/document/d/1XuPwaSQK4D8YlmBjfCae9a-3isAPWMjPeaTk-p7tJLw/edit?tab=t.0#heading=h.lrwby1u1jaz1
+
+
+Task23: JavaScript Weather Project
+- used API Ninjas EMAIL: contact@webdeveloperii.ro PAROLA: .w!E3KC_sUgFpek
+- used Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+- used web Postman: https://web.postman.co/
+request in Postman:
+![GET](../../FrontEndWeb/WebDevelopment/media/images/Task23/GET_Postman.png)
+-using API with QueryParam and X-Api-Key
+-using Fetch API: 
+![Fetch API](../../FrontEndWeb/WebDevelopment/media/images/Task23/Fetch_API.png)

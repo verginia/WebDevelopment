@@ -1,0 +1,20 @@
+body{
+    padding: 180px;
+    color: #fff;
+    background-color: turquoise;
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    font-size: 20px;
+}
+
+.weather-icon{
+    font-size: 40px;
+}
