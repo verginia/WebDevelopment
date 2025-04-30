@@ -72,8 +72,16 @@ https://docs.google.com/document/d/1XuPwaSQK4D8YlmBjfCae9a-3isAPWMjPeaTk-p7tJLw/
 
 
 Task23: JavaScript Weather Project
+
 - used API Ninjas,
 - used Bootstrap,
 - used web Postman: https://web.postman.co/,
 - used API with QueryParam and X-Api-Key,
 - used Fetch API.
+
+Task24: 
+-> JavaScript Advanced Ghid:
+https://docs.google.com/document/d/1nKqfzYB6kLTED2ioE9xsyR_kegB8zU7nUesuud2F8zY/edit?tab=t.o02vklwk2vgt#heading=h.m01tza6la9eu
+-> Object: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+-> Array: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
