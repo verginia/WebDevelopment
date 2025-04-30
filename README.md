@@ -72,14 +72,12 @@ https://docs.google.com/document/d/1XuPwaSQK4D8YlmBjfCae9a-3isAPWMjPeaTk-p7tJLw/
 
 
 Task23: JavaScript Weather Project
-- used API Ninjas EMAIL: contact@webdeveloperii.ro PAROLA: .w!E3KC_sUgFpek
-- used Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+- used API Ninjas 
+- used Bootstrap
 - used web Postman: https://web.postman.co/
-request in Postman:
-![GET](../../FrontEndWeb/WebDevelopment/media/images/Task23/GET_Postman.png)
--using API with QueryParam and X-Api-Key
--using Fetch API: 
-![Fetch API](../../FrontEndWeb/WebDevelopment/media/images/Task23/Fetch_API.png)
+- used API with QueryParam and X-Api-Key
+- used Fetch API
+
 
 Task24: 
 -> JavaScript Advanced Ghid:
