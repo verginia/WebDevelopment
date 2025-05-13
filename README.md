@@ -79,6 +79,23 @@ Task23: JavaScript Weather Project
 - used API with QueryParam and X-Api-Key,
 - used Fetch API.
 
+Comments:
+3 recomandari la proiect: 
+-> in functia de updateUiInfo ai putea sa faci update la logica:
+--- icon.classList.remove("bi-brightness-high", "bi-brightness-alt-high", "bi-snow2");
+--- sa muti classList.remove deasupra de if pentru ca orice clauza din if face remove la acel item.
+if(info.temp > 20){
+icon.classList.add("bi-brightness-high");
+} else if(info.temp < 10){
+icon.classList.add("bi-snow2");
+} else{
+icon.classList.add("bi-brightness-alt-high");
+}
+-> si in loc de 20,10 iti recomand sa folosesti o constanta ca sa descrii ce verifica, de exemplu:
+MIN_SUNNY_DEGREE_VALUE= 20
+MAX_SNOW_DEGREE_VALUE = 10
+-> si ultima recomandare este legata de adaugarea unui loading state pana cand se incarca datele, practic in `getWeatherDataForCity` ai putea sa adaugi un boolean (sau un helper function) care incarca un element de loading (chiar din bootsrap) si la cel try-catch poti adauga un finally care sa resteze (inchida) loading state-ul
+
 Task24: 
 -> JavaScript Advanced Ghid:
 https://docs.google.com/document/d/1nKqfzYB6kLTED2ioE9xsyR_kegB8zU7nUesuud2F8zY/edit?tab=t.o02vklwk2vgt#heading=h.m01tza6la9eu
